@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar-toggler {
+  border: none;
+  background: transparent;
+  font-size: 1.5rem;
+}
+
+.navbar-nav {
+  display: none;
+}
+
+.navbar-collapse.show .navbar-nav {
+  display: block;
+}
+
+.navbar-nav .nav-item {
+  width: 100%;
+}
+
+.navbar-nav .nav-item a {
+  width: 100%;
+  padding: 10px 0;
+}
+
+.navbar-nav .nav-item:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+.content-section {
+  background-color: #6c757d; /* Bootstrap secondary color */
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.content-section h2 {
+  font-size: 1.5rem;
+}
